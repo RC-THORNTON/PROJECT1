@@ -1,0 +1,72 @@
+.wrap1, .wrap2, .wrap3, .wrap4 {
+	display:  flex;
+	justify-content: space-evenly;
+}
+
+.content1 {
+	width: 40%;
+}
+
+.image1 {
+	width: 50%;
+	margin: 5px;
+
+}
+
+.image1 img {
+	width: 50%;
+	text-align: center;
+
+}
+
+.content2 {
+	width:  70%;
+	border: 3px solid ghostwhite;
+	padding: 20px;
+}
+
+.content3 {
+	width:  30%;
+	border:  3px solid ghostwhite;
+	padding: 20px;
+}
+
+.content4, .content5, .content6, .content7 {
+	width: 25%;
+	padding: 25px;
+}
+
+.content4 img, .content5 img, .content6 img, .content7 img {
+	width: 40%;
+	text-align: center;
+}
+
+.wrap1 {
+	background-color: teal;
+}
+
+.content1 p {
+	padding: 24%;
+	border: 3px solid ghostwhite;
+	margin: 5px;
+
+}
+.wrap2, .wrap3, .wrap4 {
+	background-color: lightgray;
+}
+
+.h4 {
+	background-color: lightgray;
+	padding:  2%;
+}
+
+@media only screen and (max-width: 768px) {
+	.wrap1, .wrap2, .wrap3, .wrap4, .content1, 
+	.image1, .content2, .content3, .h4,
+ 	.content4, .content5, .content6, .content7 {
+ 	display: block;
+ 	width: 100%;
+ 	padding: 5%;
+ 	text-align: center;
+ }
+}
